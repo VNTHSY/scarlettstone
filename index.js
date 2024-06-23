@@ -5,7 +5,7 @@ const app = express()
 const chalk = require("chalk")
 
 app.get('/', (req, res) => {
-  res.send('Bot Loaded! Changes Saved!');
+  res.send('Berhasil Memuat Bot! Perubahan disimpan!');
 });
 
 app.listen(3000, () => {
