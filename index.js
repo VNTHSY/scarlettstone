@@ -57,7 +57,7 @@ if(token === ""){
       chalk.red.bold("AntiCrash"),
       chalk.white("]"),
       chalk.gray(" : "),
-      chalk.white.bold("Invalid Token")
+      chalk.white.bold("Token Ditolak")
    );
    console.log(chalk.gray("—————————————————————————————————"));
    console.log(chalk.magenta("There Are 3 Ways To Fix This"));
